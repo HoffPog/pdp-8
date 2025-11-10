@@ -1,1 +1,17 @@
 Time resolution is 1 ps
+Note: === Starting Memory Tests ===
+Time: 50 ns  Iteration: 0  Process: /memory_tb/stim_proc  File: F:/UNI_STUFF/FPGA/PDP-8/PDP-8.srcs/sim_1/new/memory_testbench.vhd
+Note: Test 1: Write 0xAA to address 0x0000
+Time: 50 ns  Iteration: 0  Process: /memory_tb/stim_proc  File: F:/UNI_STUFF/FPGA/PDP-8/PDP-8.srcs/sim_1/new/memory_testbench.vhd
+Note: Test 2: Read from address 0x0000 (expect 0xAA)
+Time: 60 ns  Iteration: 0  Process: /memory_tb/stim_proc  File: F:/UNI_STUFF/FPGA/PDP-8/PDP-8.srcs/sim_1/new/memory_testbench.vhd
+Note: Test 3: Write to multiple addresses
+Time: 80 ns  Iteration: 0  Process: /memory_tb/stim_proc  File: F:/UNI_STUFF/FPGA/PDP-8/PDP-8.srcs/sim_1/new/memory_testbench.vhd
+Note: Test 4: Read back multiple addresses
+Time: 110 ns  Iteration: 0  Process: /memory_tb/stim_proc  File: F:/UNI_STUFF/FPGA/PDP-8/PDP-8.srcs/sim_1/new/memory_testbench.vhd
+Note: Test 5: Control disable (no operation)
+Time: 170 ns  Iteration: 0  Process: /memory_tb/stim_proc  File: F:/UNI_STUFF/FPGA/PDP-8/PDP-8.srcs/sim_1/new/memory_testbench.vhd
+Note: Test 6: Rapid read/write operations
+Time: 200 ns  Iteration: 0  Process: /memory_tb/stim_proc  File: F:/UNI_STUFF/FPGA/PDP-8/PDP-8.srcs/sim_1/new/memory_testbench.vhd
+Note: === All Tests Complete ===
+Time: 680 ns  Iteration: 0  Process: /memory_tb/stim_proc  File: F:/UNI_STUFF/FPGA/PDP-8/PDP-8.srcs/sim_1/new/memory_testbench.vhd

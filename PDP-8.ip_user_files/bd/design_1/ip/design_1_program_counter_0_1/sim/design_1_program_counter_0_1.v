@@ -64,8 +64,8 @@ module design_1_program_counter_0_1 (
 (* X_INTERFACE_MODE = "slave" *)
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME clk, FREQ_HZ 50000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN design_1_processing_system7_0_0_FCLK_CLK0, INSERT_VIP 0" *)
 input wire clk;
-input wire [11 : 0] jump;
-output wire [11 : 0] pc_out;
+input wire [15 : 0] jump;
+output wire [15 : 0] pc_out;
 
   program_counter inst (
     .clk(clk),

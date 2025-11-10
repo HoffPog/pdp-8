@@ -2,7 +2,7 @@
 -- Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
--- Date        : Mon Nov 10 20:03:40 2025
+-- Date        : Mon Nov 10 22:51:47 2025
 -- Host        : Tengu running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
 --               f:/UNI_STUFF/FPGA/PDP-8/PDP-8.gen/sources_1/bd/design_1/ip/design_1_program_counter_0_1/design_1_program_counter_0_1_stub.vhdl
@@ -16,8 +16,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity design_1_program_counter_0_1 is
   Port ( 
     clk : in STD_LOGIC;
-    jump : in STD_LOGIC_VECTOR ( 11 downto 0 );
-    pc_out : out STD_LOGIC_VECTOR ( 11 downto 0 )
+    jump : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    pc_out : out STD_LOGIC_VECTOR ( 15 downto 0 )
   );
 
   attribute CHECK_LICENSE_TYPE : string;
@@ -34,7 +34,7 @@ architecture stub of design_1_program_counter_0_1 is
   attribute syn_black_box : boolean;
   attribute black_box_pad_pin : string;
   attribute syn_black_box of stub : architecture is true;
-  attribute black_box_pad_pin of stub : architecture is "clk,jump[11:0],pc_out[11:0]";
+  attribute black_box_pad_pin of stub : architecture is "clk,jump[15:0],pc_out[15:0]";
   attribute X_INTERFACE_INFO : string;
   attribute X_INTERFACE_INFO of clk : signal is "xilinx.com:signal:clock:1.0 clk CLK";
   attribute X_INTERFACE_MODE : string;

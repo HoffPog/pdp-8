@@ -3,8 +3,8 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Mon Nov 10 20:03:05 2025
-# Process ID         : 19488
+# Start of session at: Mon Nov 10 22:51:12 2025
+# Process ID         : 28128
 # Current directory  : F:/UNI_STUFF/FPGA/PDP-8/PDP-8.runs/design_1_program_counter_0_1_synth_1
 # Command line       : vivado.exe -log design_1_program_counter_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_program_counter_0_1.tcl
 # Log file           : F:/UNI_STUFF/FPGA/PDP-8/PDP-8.runs/design_1_program_counter_0_1_synth_1/design_1_program_counter_0_1.vds
@@ -19,6 +19,6 @@
 # Host memory        : 34286 MB
 # Swap memory        : 2281 MB
 # Total Virtual      : 36568 MB
-# Available Virtual  : 15257 MB
+# Available Virtual  : 12392 MB
 #-----------------------------------------------------------
 source design_1_program_counter_0_1.tcl -notrace

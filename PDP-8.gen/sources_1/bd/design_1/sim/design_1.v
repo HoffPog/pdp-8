@@ -2,7 +2,7 @@
 //Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-//Date        : Mon Nov 10 19:03:50 2025
+//Date        : Mon Nov 10 22:51:09 2025
 //Host        : Tengu running 64-bit major release  (build 9200)
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -116,7 +116,7 @@ module design_1
         .PS_SRSTB(FIXED_IO_ps_srstb));
   design_1_program_counter_0_1 program_counter_0
        (.clk(processing_system7_0_FCLK_CLK0),
-        .jump(xlconstant_0_dout));
+        .jump({1'b0,1'b0,1'b0,1'b0,xlconstant_0_dout}));
   design_1_xlconstant_0_0 xlconstant_0
        (.dout(xlconstant_0_dout));
 endmodule

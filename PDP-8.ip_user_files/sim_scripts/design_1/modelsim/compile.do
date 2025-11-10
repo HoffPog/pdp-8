@@ -40,7 +40,7 @@ vlog -work xil_defaultlib  -incr -mfcu  "+incdir+../../../../PDP-8.gen/sources_1
 "../../../bd/design_1/ip/design_1_program_counter_0_1/sim/design_1_program_counter_0_1.v" \
 
 vlog -work xlconstant_v1_1_10  -incr -mfcu  "+incdir+../../../../PDP-8.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../PDP-8.gen/sources_1/bd/design_1/ipshared/6cfa/hdl" "+incdir+C:/Xilinx/2025.1/Vivado/data/rsb/busdef" "+incdir+C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
-"../../../../PDP-8.gen/sources_1/bd/design_1/ipshared/a165/hdl/xlconstant_v1_1_vl_rfs.v" \
+"../../../../PDP-8.srcs/sources_1/bd/design_1/ipshared/a165/hdl/xlconstant_v1_1_vl_rfs.v" \
 
 vlog -work xil_defaultlib  -incr -mfcu  "+incdir+../../../../PDP-8.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../PDP-8.gen/sources_1/bd/design_1/ipshared/6cfa/hdl" "+incdir+C:/Xilinx/2025.1/Vivado/data/rsb/busdef" "+incdir+C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
 "../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
