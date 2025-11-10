@@ -33,13 +33,13 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity program_counter is
     Port ( clk : in STD_LOGIC;
-           jump: in STD_LOGIC_VECTOR(11 downto 0);
-           pc_out : out STD_LOGIC_VECTOR(11 downto 0)
+           jump: in STD_LOGIC_VECTOR(15 downto 0);
+           pc_out : out STD_LOGIC_VECTOR(15 downto 0)
            );
 end program_counter;
 
 architecture Behavioral of program_counter is
-    signal count : unsigned(11 downto 0) := (others => '0');
+    signal count : unsigned(15 downto 0) := (others => '0');
 begin
     process(clk)
     begin
