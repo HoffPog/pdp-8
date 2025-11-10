@@ -44,7 +44,7 @@ begin
     process(clk)
     begin
         if rising_edge(clk) then
-            jump_addr: if (jump /= "0") then
+            if (jump /= "000000000000") then
                 count <= unsigned(jump);
             else
                 count <= count + 1;
