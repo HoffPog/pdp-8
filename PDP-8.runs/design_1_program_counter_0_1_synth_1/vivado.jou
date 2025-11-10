@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon Nov 10 20:03:05 2025
+# Process ID         : 19488
+# Current directory  : F:/UNI_STUFF/FPGA/PDP-8/PDP-8.runs/design_1_program_counter_0_1_synth_1
+# Command line       : vivado.exe -log design_1_program_counter_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_program_counter_0_1.tcl
+# Log file           : F:/UNI_STUFF/FPGA/PDP-8/PDP-8.runs/design_1_program_counter_0_1_synth_1/design_1_program_counter_0_1.vds
+# Journal file       : F:/UNI_STUFF/FPGA/PDP-8/PDP-8.runs/design_1_program_counter_0_1_synth_1\vivado.jou
+# Running On         : Tengu
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 9 3900 12-Core Processor             
+# CPU Frequency      : 3094 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 24
+# Host memory        : 34286 MB
+# Swap memory        : 2281 MB
+# Total Virtual      : 36568 MB
+# Available Virtual  : 15257 MB
+#-----------------------------------------------------------
+source design_1_program_counter_0_1.tcl -notrace

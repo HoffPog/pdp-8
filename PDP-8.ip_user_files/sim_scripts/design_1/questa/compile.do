@@ -37,7 +37,6 @@ vlog -work processing_system7_vip_v1_0_23  -incr -mfcu  -sv -L axi_vip_v1_1_21 -
 
 vlog -work xil_defaultlib  -incr -mfcu  "+incdir+../../../../PDP-8.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../PDP-8.gen/sources_1/bd/design_1/ipshared/6cfa/hdl" "+incdir+C:/Xilinx/2025.1/Vivado/data/rsb/busdef" "+incdir+C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
 "../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
-"../../../bd/design_1/sim/design_1.v" \
 "../../../bd/design_1/ip/design_1_program_counter_0_1/sim/design_1_program_counter_0_1.v" \
 
 vlog -work xlconstant_v1_1_10  -incr -mfcu  "+incdir+../../../../PDP-8.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../PDP-8.gen/sources_1/bd/design_1/ipshared/6cfa/hdl" "+incdir+C:/Xilinx/2025.1/Vivado/data/rsb/busdef" "+incdir+C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
@@ -45,6 +44,7 @@ vlog -work xlconstant_v1_1_10  -incr -mfcu  "+incdir+../../../../PDP-8.gen/sourc
 
 vlog -work xil_defaultlib  -incr -mfcu  "+incdir+../../../../PDP-8.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../PDP-8.gen/sources_1/bd/design_1/ipshared/6cfa/hdl" "+incdir+C:/Xilinx/2025.1/Vivado/data/rsb/busdef" "+incdir+C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
 "../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
 
 vlog -work xil_defaultlib \
 "glbl.v"

@@ -1,0 +1,2 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/UNI_STUFF/FPGA/PDP-8/PDP-8.srcs/sim_1/new/pc_testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_program_counter'

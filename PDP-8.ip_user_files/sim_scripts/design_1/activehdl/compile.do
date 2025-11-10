@@ -40,7 +40,6 @@ vlog -work processing_system7_vip_v1_0_23  -sv2k12 "+incdir+../../../../PDP-8.ge
 
 vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../PDP-8.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../PDP-8.gen/sources_1/bd/design_1/ipshared/6cfa/hdl" "+incdir+C:/Xilinx/2025.1/Vivado/data/rsb/busdef" "+incdir+C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" -l xilinx_vip -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_21 -l processing_system7_vip_v1_0_23 -l xil_defaultlib -l xlconstant_v1_1_10 \
 "../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
-"../../../bd/design_1/sim/design_1.v" \
 "../../../bd/design_1/ip/design_1_program_counter_0_1/sim/design_1_program_counter_0_1.v" \
 
 vlog -work xlconstant_v1_1_10  -v2k5 "+incdir+../../../../PDP-8.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../PDP-8.gen/sources_1/bd/design_1/ipshared/6cfa/hdl" "+incdir+C:/Xilinx/2025.1/Vivado/data/rsb/busdef" "+incdir+C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" -l xilinx_vip -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_21 -l processing_system7_vip_v1_0_23 -l xil_defaultlib -l xlconstant_v1_1_10 \
@@ -48,6 +47,7 @@ vlog -work xlconstant_v1_1_10  -v2k5 "+incdir+../../../../PDP-8.gen/sources_1/bd
 
 vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../PDP-8.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../PDP-8.gen/sources_1/bd/design_1/ipshared/6cfa/hdl" "+incdir+C:/Xilinx/2025.1/Vivado/data/rsb/busdef" "+incdir+C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" -l xilinx_vip -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_21 -l processing_system7_vip_v1_0_23 -l xil_defaultlib -l xlconstant_v1_1_10 \
 "../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
 
 vlog -work xil_defaultlib \
 "glbl.v"
