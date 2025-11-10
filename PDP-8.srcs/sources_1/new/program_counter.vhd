@@ -33,16 +33,22 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity program_counter is
     Port ( clk : in STD_LOGIC;
-           pc_out : out STD_LOGIC_VECTOR(31 downto 0));
+           jump: in STD_LOGIC_VECTOR(11 downto 0);
+           pc_out : out STD_LOGIC_VECTOR(11 downto 0)
+           );
 end program_counter;
 
 architecture Behavioral of program_counter is
-    signal count : unsigned(31 downto 0) := (others => '0');
+    signal count : unsigned(11 downto 0) := (others => '0');
 begin
     process(clk)
     begin
         if rising_edge(clk) then
+            jump_addr: if (jump /= "0") then
+                count <= unsigned(jump);
+            else
                 count <= count + 1;
+            end if;
         end if;
     end process; 
 
